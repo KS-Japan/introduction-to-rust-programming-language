@@ -6,7 +6,7 @@ use std::time::Instant;//時間計測ライブラリ
 fn main() {
     let start = Instant::now();//.計測開
 
-    for i in 1..10000000{
+    for i in 0..10000000{
         if is_prime(i){
             println!("{}",i);
         }

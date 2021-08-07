@@ -1,12 +1,9 @@
 use std::time::Instant;//時間計測ライブラリ
-//PyO3を利用することにより、pythonで利用することができる
-//use pyo3::prelude::*;
-//use pyo3::types::PyList;
 
 fn main() {
     let start = Instant::now();//.計測開
 
-    for i in 0..10000000{
+    for i in 0..1000{
         if is_prime(i){
             println!("{}",i);
         }

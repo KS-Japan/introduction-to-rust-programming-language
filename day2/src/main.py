@@ -1,4 +1,5 @@
 import time
+import eratosthenes
 
 def is_prime(n):    
     if n < 2:
@@ -17,8 +18,10 @@ def is_prime(n):
 
 if __name__ == '__main__':
     start = time.time()
-    for i in range(0,10000000):
-        if is_prime(i):
-            print(i)
+    #for i in range(0,10000000):
+    #for i in range(0,100):
+   #    if is_prime(i):
+    #        print(i)
+    print(eratosthenes.get_prime_numbers(10))
     elapsed_time = time.time() - start
     print ("elapsed_time:{:.3f}".format(elapsed_time) + "[sec]")

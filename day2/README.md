@@ -1,6 +1,6 @@
 # day2
 ### 本内容のyoutube動画
-爆速!! Rustを利用してpythonの実行速度改善
+爆速!! Rustを利用してpythonの実行速度改善<br>
 https://youtu.be/65_7uUGYq-U
 
 ### 実行速度比較
